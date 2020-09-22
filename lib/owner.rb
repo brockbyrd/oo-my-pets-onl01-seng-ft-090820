@@ -35,7 +35,7 @@ class Owner
 
   end
 
-  def fee_cats
+  def feed_cats
 
   end
 
