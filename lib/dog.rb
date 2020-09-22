@@ -12,6 +12,7 @@ class Dog
     @owner = owner
     @mood = mood
     save
+    owner.dogs << self
   end
 
   def save
