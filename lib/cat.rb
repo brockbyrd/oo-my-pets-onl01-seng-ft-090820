@@ -10,6 +10,7 @@ class Cat
     @name = name
     @owner = owner
     @mood = mood
+    save
   end
 
 
