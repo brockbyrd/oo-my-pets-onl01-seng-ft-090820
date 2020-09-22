@@ -9,7 +9,7 @@ class Owner
     name.freeze
   end
 
-  def species(species = "human")
+  def species=(species = "human")
     species.freeze
   end
 
