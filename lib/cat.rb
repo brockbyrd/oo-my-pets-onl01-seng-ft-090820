@@ -18,7 +18,8 @@ class Cat
   def save
     @@all << self
   end
-  self.all
+  
+  def self.all
     @@all
   end
 
