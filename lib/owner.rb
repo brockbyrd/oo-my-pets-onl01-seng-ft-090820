@@ -29,7 +29,7 @@ class Owner
   end
 
   def cats
-    self.cats.collect{|c| c.name}
+    
   end
 
   def dogs
