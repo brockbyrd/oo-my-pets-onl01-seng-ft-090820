@@ -3,7 +3,7 @@ require 'pry'
 class Cat
   # code goes here
 
-  attr_accessor :name, :owner, :mood
+  attr_reader :name, :owner, :mood
   @@all = []
 
   def initialize(name, owner, mood = "nervous")
@@ -12,8 +12,6 @@ class Cat
     @mood = mood
     save
   end
-
-
 
   def save
     @@all << self
