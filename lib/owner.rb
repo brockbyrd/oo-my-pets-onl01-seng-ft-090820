@@ -31,14 +31,6 @@ class Owner
     @@all.clear
   end
 
-  def cats
-
-  end
-
-  def dogs
-
-  end
-
   def buy_cat(name)
     Cat.new(name, self)
   end
