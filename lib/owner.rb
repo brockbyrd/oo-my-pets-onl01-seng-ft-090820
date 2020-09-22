@@ -9,10 +9,6 @@ class Owner
     @species = species
   end
 
-  def name
-    @name.dup.freeze
-  end
-
   def say_species
     "I am a #{species}."
   end
