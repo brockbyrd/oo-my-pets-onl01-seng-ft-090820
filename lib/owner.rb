@@ -6,11 +6,11 @@ class Owner
 
   def initialize(name)
     @name = name
-    name.dup.freeze
+    name.freeze
   end
 
   def species(species = "human")
-    species.dup.freeze
+    species.freeze
   end
 
   def say_species
