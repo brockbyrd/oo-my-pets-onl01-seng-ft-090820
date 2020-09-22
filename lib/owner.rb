@@ -6,7 +6,7 @@ class Owner
 
   def initialize(name, species = "human")
     @name = []
-    @species = species
+    @species = []
   end
 
   def name
