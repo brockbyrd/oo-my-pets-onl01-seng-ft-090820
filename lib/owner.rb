@@ -10,7 +10,7 @@ class Owner
   end
 
   def name
-    @name.freeze
+    @name.dup.freeze
   end
 
   def say_species
