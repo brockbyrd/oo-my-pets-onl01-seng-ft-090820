@@ -6,13 +6,13 @@ class Owner
   attr_accessor :cats, :dogs
 
   @@all = []
-  @@cats = []
-  @@dogs = []
 
   def initialize(name)
     @name = name
     @species = "human"
     @@all << self
+    @cats = []
+    @dogs = []
   end
 
   def say_species
