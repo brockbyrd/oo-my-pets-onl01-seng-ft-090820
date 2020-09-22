@@ -4,8 +4,7 @@ class Owner
   # code goes here
   attr_accessor :name, :species
 
-  def initialize(name, species = "human")
-    @name = name
+  def initialize(species = "human")
     @species = species
     name.freeze
     species.freeze
