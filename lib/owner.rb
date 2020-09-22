@@ -2,11 +2,11 @@ require 'pry'
 
 class Owner
   # code goes here
-  attr_accessor :name, :species
+  attr_reader :name, :species
 
-  def initialize(name, species = "human")
-    @name = name.freeze
-    @species = species
+  def initialize(name)
+    @name = name
+    @species = "human"
   end
 
   def say_species
