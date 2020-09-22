@@ -10,7 +10,6 @@ class Owner
   end
 
   def species(species = "human")
-    @species = species
     species.freeze
   end
 
