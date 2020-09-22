@@ -6,7 +6,6 @@ class Owner
 
   def initialize(species = "human")
     @species = species
-    name.freeze
     species.freeze
   end
 
