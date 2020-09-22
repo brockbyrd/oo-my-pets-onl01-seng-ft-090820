@@ -7,6 +7,8 @@ class Owner
   def initialize(name, species = "human")
     @name = name
     @species = species
+    name.freeze
+    species.freeze
   end
 
   def say_species
