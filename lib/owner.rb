@@ -31,7 +31,7 @@ class Owner
   end
 
   def cats
-    
+
   end
 
   def dogs
@@ -47,11 +47,11 @@ class Owner
   end
 
   def walk_dogs
-    
+
   end
 
   def feed_cats
-    
+
   end
 
   def sell_pets
@@ -59,7 +59,7 @@ class Owner
   end
 
   def list_pets
-    
+
   end
 
 end
