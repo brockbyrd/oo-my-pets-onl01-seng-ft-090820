@@ -44,15 +44,15 @@ class Owner
   end
 
   def feed_cats
-
+    self.dogs.each {|c| d.mood = "happy"}
   end
 
   def sell_pets
-
+    
   end
 
   def list_pets
-
+    self.all.collect {|p| p.dogs}
   end
 
 end
