@@ -52,7 +52,7 @@ class Owner
   end
 
   def list_pets
-    self.all.collect {|p| p.dogs}
+    
   end
 
 end
