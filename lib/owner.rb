@@ -5,7 +5,7 @@ class Owner
   attr_accessor :name, :species
 
   def initialize(name, species = "human")
-    name.freeze
+    @name.freeze = name
   end
 
   def say_species
