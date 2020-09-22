@@ -3,13 +3,14 @@ require 'pry'
 class Cat
   # code goes here
 
-  attr_reader :name, :owner, :mood
+  attr_accessor :mood, :owner
+  attr_reader :name
   @@all = []
 
-  def initialize(name, owner, mood = "nervous")
+  def initialize(name, owner, mood)
     @name = name
     @owner = owner
-    @mood = mood
+    @mood = "nervous"
     save
   end
 
