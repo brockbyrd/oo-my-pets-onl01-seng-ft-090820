@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   # code goes here
-  attr_reader :name, :species
+  attr_reader :name, :species, :cats, :dogs
 
   @@all = []
 
@@ -29,7 +29,7 @@ class Owner
   end
 
   def cats
-
+    self.cats
   end
 
   def dogs
