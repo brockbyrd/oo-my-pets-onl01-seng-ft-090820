@@ -4,13 +4,10 @@ class Owner
   # code goes here
   attr_accessor :name, :species
 
-  def initialize(name)
+  def initialize(name, species = "human")
     @name = name
+    @species = species
     name.freeze
-  end
-
-  def species=(species = "human")
-    species.freeze
   end
 
   def say_species
