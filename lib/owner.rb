@@ -5,8 +5,8 @@ class Owner
   attr_accessor :name, :species
 
   def initialize(name, species = "human")
-    @name = []
-    @species = []
+    @name = name
+    @species = species
   end
 
   def name
