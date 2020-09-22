@@ -31,7 +31,7 @@ class Owner
   end
 
   def cats
-    @@cats.collect{|c| c.name}
+    
   end
 
   def dogs
@@ -39,7 +39,7 @@ class Owner
   end
 
   def buy_cat(name)
-
+    Cat.new(name, self)
   end
 
   def buy_dog(name)
@@ -47,11 +47,11 @@ class Owner
   end
 
   def walk_dogs
-    @mood = "happy"
+    
   end
 
   def feed_cats
-    owner[:mood] ="happy"
+    
   end
 
   def sell_pets
@@ -59,7 +59,7 @@ class Owner
   end
 
   def list_pets
-
+    
   end
 
 end
