@@ -31,7 +31,7 @@ class Owner
   end
 
   def cats
-    @
+    @@cats.collect{|c| c.name}
   end
 
   def dogs
